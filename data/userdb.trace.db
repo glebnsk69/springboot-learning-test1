@@ -1,0 +1,8 @@
+2026-11-07 01:10:43.392956+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id)) [42001-240]
+2026-11-07 01:15:22.265080+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, age integer, first_name varchar(255), last_name varchar(255), sex tinyint check ((sex between 0 and 1)), primary key (id)) [42001-240]
