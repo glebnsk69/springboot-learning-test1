@@ -7,3 +7,4 @@ import org.springframework.stereotype.Component;
 public class DatabaseInitializer {
     CommandLineRunner runner;
 }
+// тут все непонятно
