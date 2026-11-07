@@ -33,6 +33,7 @@ public class User {
     }
 
     @Column
+    @Enumerated(EnumType.STRING)
     private Sex sex;
 
     public User(String firsfName, String lastName, Integer age, Sex sex) {
